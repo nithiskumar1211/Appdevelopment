@@ -1,0 +1,101 @@
+.App
+{
+     
+    /* background-color: rgba(11, 233, 100, 0.411); */
+    background-image: url("https://res.cloudinary.com/dwyfsuuzs/image/upload/v1694710001/time1_k28jpb.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    /* border-radius: 10px; */
+}
+.app1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    background-color: rgba(211, 222, 240, 0);
+    height: 580px;
+    width: 600px;
+    border-radius: 700px;
+    position: relative;
+    top:-100px;
+}
+.app2
+{
+    position:relative;
+    top:-70px;
+    left:90px;
+    font-size: 35px;
+}
+.app3
+{
+    position: relative;
+    top:-20px;
+}
+.app4{
+    position: relative;
+    top:-10px;
+}
+.login{
+    position: relative;
+    left:100px;
+    top:100px;
+}.app5
+{
+    position: relative;
+    left:190px;
+
+}
+.app6
+{
+    position:relative;
+    left:20px;
+
+}
+.reg
+{
+    /* background-color: rgba(128, 255, 0, 0.438); */
+    background-image: url("https://res.cloudinary.com/dwyfsuuzs/image/upload/v1694755472/time7_dmvljc.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+.reg1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(6, 4, 1, 0.304);
+    width: 700px;
+    height:700px;
+    position: relative;
+    left:850px;
+    top:90px;
+}
+.reg2
+{
+    position: relative;
+    top:-40px;
+    left:-190px
+}.reg8
+{
+    position: relative;
+    top:30px;
+    
+}
+.reg9
+{
+    position: relative;
+    top:20px;
+}
