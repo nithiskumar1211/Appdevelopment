@@ -1,0 +1,70 @@
+.signup {
+    background-image: url("https://thumbs.dreamstime.com/z/procurement-word-cloud-hand-marker-concept-white-background-127729896.jpg?w=992");
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     background-color: #6f6f6fd6;
+     font-family: Arial, sans-serif; 
+     background-repeat: no-repeat;
+     background-size: cover;
+   }
+   
+ 
+   .signupContainer {
+     height: 70vh;
+     width: 30%;
+     justify-content: center;
+     text-align: center;
+     background-color: #fffdfddf;
+     padding: 20px;
+     border-radius: 20px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+   }
+   
+   /* Style the form headings */
+   .signupContainer h1 {
+     font-size: 24px;
+     margin-bottom: 10px;
+     color: #333;
+   }
+   
+   .signupContainer h2 {
+ 
+     font-size: 18px;
+     margin-bottom: 20px;
+     color: #555;
+   }
+   
+   /* Style form fields and labels */
+     .form-group {
+         margin-bottom: 20px;
+         text-align: left;
+     }
+ 
+ .signup-input {
+     width: 80%;
+     padding: 10px;
+     border: 1px solid #ccc;
+     border-radius: 3px;
+     font-size: 16px;
+     margin-bottom: 15px;
+     justify-content: center;
+   }
+   
+   /* Style the submit button */
+   button[type="submit"] {
+     display: inline-block;
+     padding: 10px 20px;
+     background-color: #007bff;
+     color: #ffffff;
+     border: none;
+     border-radius: 3px;
+     font-size: 16px;
+     cursor: pointer;
+     transition: background-color 0.3s ease;
+   }
+   
+   button[type="submit"]:hover {
+     background-color: #0056b3;
+   }

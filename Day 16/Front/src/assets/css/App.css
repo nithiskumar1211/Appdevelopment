@@ -1,0 +1,1339 @@
+.App
+{
+     
+    /* background-color: rgba(11, 233, 100, 0.411); */
+    background-image: url("https://img.freepik.com/free-vector/my-password-concept-illustration_114360-4294.jpg?size=626&ext=jpg&ga=GA1.1.269377609.1686319445&semt=ais");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    width:50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    /* border-radius: 10px; */
+}
+.Admin-App{
+    background-image: url("https://res.cloudinary.com/dwyfsuuzs/image/upload/v1695585434/admin_login_dkt0pq.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+}
+.Admin-app1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    background-color:rgba(7, 2, 2, 0.471);
+    height: 480px;
+    width: 500px;
+    border-radius: 100px;
+    position: relative;
+    top:10px;
+    left:30px;
+
+}
+.app1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    background-color:rgba(146, 5, 146, 0.608);
+    height: 480px;
+    width: 500px;
+    border-radius: 100px;
+    position: relative;
+    top:10px;
+    left:900px;
+}
+.app2
+{
+    position:relative;
+    top:-70px;
+    left:90px;
+    font-size: 35px;
+}
+.app3
+{
+    position: relative;
+    top:-20px;
+}
+.app4{
+    position: relative;
+    top:-10px;
+}
+.login{
+    position: relative;
+    left:100px;
+    top:100px;
+}.app5
+{
+    position: relative;
+    left:190px;
+
+}
+.app6
+{
+    position:relative;
+    left:20px;
+
+}
+.reg
+{
+    /* background-color: rgba(128, 255, 0, 0.438); */
+    background-image: url("https://img.freepik.com/premium-photo/file-folder-laptop-screen-lilac-background-generative-ai_803320-182.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+.reg1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(128, 0, 128, 0.493);
+    width: 700px;
+    height:700px;
+    position: relative;
+    left:920px;
+    top:90px;
+}
+.reg2
+{
+    position: relative;
+    top:-40px;
+    left:-190px
+}.reg8
+{
+    position: relative;
+    top:30px;
+    
+}
+.reg9
+{
+    position: relative;
+    top:20px;
+}
+.das1
+{
+    background-color: rgba(230, 233, 233, 0.756);
+    background-image: url('');
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height:100vh;
+}
+.nav
+{
+    background-color:rgb(21, 1, 21);
+    /* background-image: url('https://tse4.mm.bing.net/th?id=OIP.oTqHghd4t5GCY2MwMVS0WgHaHa&pid=Api&P=0&h=180');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    position: absolute;
+    width:100vw;
+    height: 16vh;
+
+}
+.sli
+{
+    background-color:rgb(21, 1, 21);
+    /* background-image: url('https://tse4.mm.bing.net/th?id=OIP.oTqHghd4t5GCY2MwMVS0WgHaHa&pid=Api&P=0&h=180');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    position:absolute;
+    flex-direction: column;
+    width:14vw;
+    height:100vh;
+    position: absolute;
+    
+}
+.nav1{
+
+    position: absolute;
+    left:430px;
+    top:14px;
+
+        
+    
+}
+.nav2
+{
+    position: relative;
+    left:470px;
+    top:44px;
+    width: 800px;
+    /* background-color: white; */
+    display: flex;
+}
+.nav3
+{
+    color: azure;
+    position: absolute;
+    left:1560px;
+    top: 40px;
+    font-size: 22px;
+}
+.nav4
+{
+    position:absolute;
+    left:1415px;
+    color:azure;
+}
+.nav5{
+    position:absolute;
+    left:1350px;
+    color:azure
+}
+/* .nav6:hover{
+    transform: scale(1.2);
+   
+} */
+.nav6
+{
+    position: absolute;
+    left: 1490px;
+    top:35px;
+}
+.nav7
+{
+    position: absolute;
+    left:400px
+}
+.d2
+{
+    position:absolute;
+    left:250px;
+    top: 150px;
+    width:800px;
+    font-size: 35px;
+    color:black
+    /* background-color: #0c55b4b6; */
+   
+
+}
+.d3
+{
+    background-image: url("https://res-console.cloudinary.com/dwyfsuuzs/thumbnails/v1/image/upload/v1694710001/dGltZTFfazI4anBi/grid_landscape");
+    position: absolute;
+    width: 30vw;
+    height:30vh;
+    left: 400px;
+    top:200px;
+}
+.d4
+{
+    background-image: url("https://img.freepik.com/free-vector/man-holding-clock-time-management-concept_23-2148823171.jpg?size=626&ext=jpg&ga=GA1.1.269377609.1686319445&semt=ais");
+    position: absolute;
+    width: 30vw;
+    height:30vh;
+    left: 400px;
+    top:550px;
+}
+.d5
+{
+    background-image: url("https://img.freepik.com/premium-photo/senior-man-checking-his-calendar_53876-55617.jpg?size=626&ext=jpg&ga=GA1.1.269377609.1686319445&semt=ais");
+    position: absolute;
+    width: 30vw;
+    height:30vh;
+    left: 1000px;
+    top:550px;
+}
+.d6
+{
+    background-image: url("https://img.freepik.com/free-photo/progress-stock-figures-timeline-concept_53876-148029.jpg?size=626&ext=jpg&ga=GA1.1.269377609.1686319445&semt=ais-");
+    position: absolute;
+    width: 30vw;
+    height:30vh;
+    left: 1000px;
+    top:200px;
+}
+.d7 
+{
+    position: relative;
+    left:860px;
+    top:460px;
+}
+   .r1
+   {
+    position:relative;
+    left:790px;
+    top:140px;
+    font-size: 50px;
+    width: 800px;
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    
+
+   }
+   .das9
+   {
+    position: relative;
+    left:700px;
+    top:470px;
+    width: 400px;
+    font-size: 60px;
+    color:white;
+    background-color: #010803c8;
+   }
+   .sli2:hover
+{
+    transform: scale(1.1);
+    
+}
+.sli3:hover{
+    transform: scale(1.1);
+    
+}
+.sli4:hover{
+    transform: scale(1.1);
+   
+}
+.sli6:hover{
+    transform: scale(1.1);
+    
+}
+.sli7:hover{
+    transform: scale(1.1);
+    
+}
+.sli8:hover{
+    transform: scale(1.1);
+   
+}
+.sli2
+{
+    position:absolute;
+    top:180px;
+    left:40px;
+    background-color:rgb(21, 1, 21);
+    font-size: 23px;
+   
+}
+
+.sli3
+{
+    position:absolute;
+    top:280px;
+    left:40px;
+    background-color:rgb(21, 1, 21);
+    font-size: 23px;
+    /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
+   
+}
+.sli4
+{
+    position:absolute;
+    top:380px;
+    left:40px;
+    background-color:rgb(21, 1, 21);
+    font-size: 23px;
+}
+.sli5
+{
+    position:absolute;
+    top:-20px;
+    left:10px;
+}
+.sli6
+{
+    position:absolute;
+    top:480px;
+    left:40px;
+    background-color:rgb(21, 1, 21);
+    font-size: 23px;
+}
+.sli7
+{
+   
+    position:absolute;
+    top:580px;
+    left:40px;
+    background-color:rgb(21, 1, 21);
+    font-size: 23px;
+}
+.sli8
+{
+    position:absolute;
+    top:680px;
+    left:40px;
+    background-color:rgb(21, 1, 21);
+    font-size: 23px;
+}
+.sli9
+{
+    position:absolute;
+    top:790px;
+    left:60px;
+    color:rgb(238, 130, 211)
+
+}
+.sli0
+{
+    position: absolute;
+    left:85px;
+    top:8px;
+}
+.s1 
+{
+    position: absolute;
+    left:307px;
+    top:139px;
+    /* width:60vw;
+    height:50vh; */
+}
+
+.nit
+{
+    position:absolute;
+    left:670px;
+    top:470px;
+    font-size: 60px;
+    color:white;
+    background-color: #010803c8;
+}
+.har{
+    position:absolute;
+    left:650px;
+    top:470px;
+    font-size: 60px;
+    color:white;
+    background-color: #010803c8;
+}
+.sil{
+     
+    position:absolute;
+    left:600px;
+    top:470px;
+    font-size: 60px;
+    color:white;
+    background-color: #010803c8;
+}
+.n2
+
+{
+    position: absolute;
+    left:1451px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 15vw;
+    height:35vh;
+   background-color: white;
+   border-radius: 20px;
+}
+.n3:hover{
+    transform: scale(1.1);
+}
+.n3{
+    position: absolute;
+    left:100px;
+    top:20px;
+
+}
+.n4 
+{
+    position: absolute;
+    top:110px;
+    left:60px;
+    color:black
+
+
+}
+.n5 {
+    position: absolute;
+    top:150px;
+    left:60px;
+    color:black
+}
+.n6 
+{
+    position: absolute;
+    top:190px;
+    left:60px;
+    color:black
+}
+.n7 
+{
+    position: absolute;
+    top:230px;
+    left:60px;
+    color:black
+}
+.n66
+{
+    position: absolute;
+    left:-30px;
+    top:-1px;
+}
+.n8
+{
+    position: absolute;
+    top:270px;
+    left:90px;
+    color:black
+}
+
+.ds2
+{
+    position: absolute;
+    width:20vw;
+    height: 30vh;
+    top:600px;
+    left:300px;
+   background-color: rgba(165, 42, 42, 0.807);
+}
+.ds3
+{
+    position: absolute;
+    width:20vw;
+    height: 30vh;
+    left:790px;
+    top:600px;
+   background-color: rgba(165, 42, 42, 0.807);
+}
+.ds4
+{
+    position: absolute;
+    width:20vw;
+    height: 30vh;
+    left:790px;
+    top:200px;
+   background-color: rgba(165, 42, 42, 0.807);
+}
+.ds5
+{
+    position: absolute;
+    width:20vw;
+    height: 30vh;
+    left:1300px;
+    top:200px;
+   background-color: rgba(165, 42, 42, 0.807);
+}
+.ds6{
+    position: absolute;
+    width:20vw;
+    height: 30vh;
+    left:1300px;
+    top:600px;
+   background-color: rgba(165, 42, 42, 0.807);
+}
+.ds11:hover
+{
+    transform: scale(1.1);
+    
+}
+.ds11
+{
+    position: absolute;
+    width:10vw;
+    height: 5vw;
+    top:30px;
+    background-color: aliceblue;
+
+}
+.nit1
+{
+    position: absolute;
+    left:242px;
+    top:140px;
+}
+.t {
+    position: absolute;
+    width: 98.8vw;
+    height: 12vh;
+    background-color:darkviolet
+
+}
+.t1 
+{
+    position: absolute;
+    top:-35px;
+    left:-10px;
+}
+
+.t2
+{
+   
+   position: absolute;
+    left:970px;
+    top:30px;
+    font-size: 20px;;
+}
+.t3
+{
+    position: absolute;
+    left:1400px;
+    top:30px;
+}
+.t4
+{
+    position: absolute;
+    left:850px;
+    top:30px;
+    font-size: 20px;;
+}
+.t5
+{
+    position: absolute;
+    left:1130px;
+    top:30px;
+    font-size: 20px;;
+}
+.t6{
+    position: absolute;
+    left:1300px;
+    top:30px;
+    font-size: 20px;;
+
+}
+.h 
+{
+    position: absolute;
+    top:250px;
+    left: 200px;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Carter One', cursive;
+}
+.h1 {
+    position: absolute;
+    top:430px;
+    left: 200px;;
+}
+.h2 
+{
+    position: absolute;
+    top:500px;
+    left: 200px;;
+    font-family: 'Poppins', sans-serif;
+}
+.h3 {
+    position: absolute;
+    left:800px;
+    top:200px;
+}
+.h4 
+{
+    position: absolute;
+    left:300px;
+    top:700px;
+    
+}
+.h5 {
+   position: absolute;
+   left:400px;
+   top:1000px;
+   font-family: 'Poppins', sans-serif;
+
+}
+.h6:hover
+{
+    transform: scale(1.1);
+}
+.h6 {
+    position: absolute;
+     background-image: url("https://img.freepik.com/free-photo/business-people-meeting_53876-25161.jpg?size=626&ext=jpg&ga=GA1.2.269377609.1686319445&semt=ais");
+    width: 30vw;
+    height:35vh;
+    top:1700px;
+    left:1000px;
+    border-radius: 15px;
+}
+.h66
+{
+    position: absolute;
+    top:2020px;
+    left:1000px;
+    
+
+}
+.h666
+{
+    position: absolute;
+    top:380px;
+}
+.h7:hover
+{
+    transform: scale(1.1);
+}
+.h7 {
+    position: absolute;
+    background-image: url('https://img.freepik.com/free-photo/business-executives-discussing-with-their-colleagues-whiteboa_1170-1837.jpg?size=626&ext=jpg&ga=GA1.1.269377609.1686319445&semt=ais');
+    width: 30vw;
+    height:35vh;
+    top:1130px;
+    left:130px;
+    border-radius: 15px;
+}
+.h77
+{
+    position: absolute;
+    top:1450px;
+    left:130px;
+}
+.h8:hover{
+    transform: scale(1.1);
+}
+.h8 
+{
+    position: absolute;
+  background-image: url('https://img.freepik.com/premium-photo/searching-fresh-ideas-together-top-view-young-confident-business-people-discussing-something_425904-9580.jpg?size=626&ext=jpg&ga=GA1.2.269377609.1686319445&semt=ais');
+    width: 30vw;
+    height:35vh;
+    top:1130px;
+    left:1000px;
+    border-radius: 15px;
+}
+.h88{
+    position: absolute;
+    top:1450px;
+    left:1000px;
+}
+.h9:hover{
+    transform: scale(1.1);
+}
+.h9 {
+    position: absolute;
+   background-image: url("https://img.freepik.com/free-photo/focused-team-leader-presenting-marketing-plan-interested-multiracial-coworkers-serious-speaker-boss-executive-business-trainer-explaining-development-strategy-motivated-mixed-race-employees_482257-13781.jpg?size=626&ext=jpg&ga=GA1.2.269377609.1686319445&semt=ais");
+    width: 30vw;
+    height:35vh;
+    top:1700px;
+    left:130px;
+    border-radius: 15px;
+}
+.h99{
+    position: absolute;
+    top:2020px;
+    left:130px;
+}
+.h10
+{
+    position: absolute;
+    top:2600px;
+    left:150px;
+}
+.h100
+{
+    position: absolute;
+    top:2680px;
+    left:150px
+}
+.h11
+{
+    position: absolute;
+    top: 2430px;
+    left:700px;
+    
+    
+}
+.h11:hover
+{
+    transform: scale(1.1);
+    background-color: blue;
+}
+.h12
+{
+    position: absolute;
+    top:3100px;
+    padding-top: 150px;
+    font-family: 'Carter One', cursive;
+    border-top: 1px solid black;
+    width:100%;
+    text-align: center;
+}
+.h122
+{
+    position: absolute;
+    left:700px;
+    /* text-align: center; */
+    top:250px;
+}
+.h13
+{
+    position: absolute;
+    top:350px;
+    left:720px
+}
+.pri0
+{
+    position: absolute;
+    top:3980px;
+    left:200px;
+    color:white
+    
+}
+.pri00
+{
+    position: absolute;
+    top: 2px;
+}
+.pri
+{
+    position: absolute;
+    top:3980px;
+    left:500px;
+    color:white
+}
+
+.pri1
+{
+    position: absolute;
+    top:3980px;
+    left:600px;
+    color:white
+}
+.pri2
+{
+    position: absolute;
+    top:3980px;
+    left:700px;
+    color:white
+}
+.pri3
+{
+    position: absolute;
+    top:3980px;
+    left:830px;
+    color:white
+}
+.pri4
+{
+    position: absolute;
+    top:3980px;
+    left:1000px;
+    color:white
+}
+.pri5
+{
+    position: absolute;
+    top:3980px;
+    left:1030px;
+    color:white
+}
+.pri6
+{
+    position: absolute;
+    top:3980px;
+    left:1130px;
+    color:white
+}
+.pri7
+{
+    position: absolute;
+    top:3980px;
+    left:1250px;
+    color:white
+}
+.pri8
+{
+    background-color:rgb(148, 0, 211);
+    width:99vw;
+    height:60vh;
+    position: absolute;
+    top:3500px;
+}
+.pri9
+{
+    position: absolute;
+display: flex;
+flex-direction: column;
+left:1500px;
+top:50px
+}
+.pri10
+{
+    position: absolute;
+    display: flex;
+flex-direction: column;
+left:1200px;
+top:50px
+}
+.pri11
+{
+    position: absolute;
+    display: flex;
+flex-direction: column;
+left:900px;
+top:50px
+}
+.pri12
+{
+    position: absolute;
+    display: flex;
+flex-direction: column;
+left:600px;
+top:50px
+}
+.pri13
+{
+    position: absolute;
+    display: flex;
+flex-direction: column;
+left:300px;
+top:50px
+}
+.pri14
+{
+    position: absolute;
+    top:3980px;
+    left:1330px;
+    color:white
+}
+.a
+{
+    background-color:rgb(148, 0, 211);
+       width:1300px;
+       height: 3200px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       position: absolute;
+       left:200px;
+       top:200px;
+}
+.p 
+{
+    background-color:rgb(148, 0, 211);
+       width:1300px;
+       height: 3200px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       position: absolute;
+       left:200px;
+       top:200px;
+}
+.term
+{
+    background-color:rgb(148, 0, 211);
+       width:1300px;
+       height: 3200px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       position: absolute;
+       left:200px;
+       top:200px;
+}
+.fre
+{
+    background-color:rgb(148, 0, 211);
+       width:1300px;
+       height: 3200px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       position: absolute;
+       left:200px;
+       top:200px;
+}
+.c
+{
+    background-color:rgb(148, 0, 211);
+       width:1300px;
+       height: 3200px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       position: absolute;
+       left:200px;
+       top:200px;
+}
+.admin{
+    position: absolute;
+    left:80px;
+    top:200px
+}
+.T {
+    position: absolute;
+    left:40px;
+    top:80px;
+    font-size: 45px;
+}
+.term11
+{
+    position: absolute;
+    top:3200px;
+}
+.c3
+{
+    background-color: rgba(220, 216, 212, 0.841);
+    width:23vw;
+    height:50vh;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left:100px;
+    top:300px;
+    border-radius: 40px;
+    
+}
+.c4
+{
+    background-color: rgba(220, 216, 212, 0.841);
+    width:23vw;
+    height:50vh;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left:800px;
+    top:300px;
+    border-radius: 40px;
+}
+.c5
+{
+    background-color: rgba(220, 216, 212, 0.841);
+    width:23vw;
+    height:50vh;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left:100px;
+    top:900px;
+    border-radius: 40px;
+}
+.c6
+{
+    background-color: rgba(220, 216, 212, 0.841);
+    width:23vw;
+    height:50vh;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left:100px;
+    top:1500px;
+    border-radius: 40px;
+}
+.c7
+{
+    background-color: rgba(220, 216, 212, 0.841);
+    width:23vw;
+    height:50vh;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left:800px;
+    top:900px;
+    border-radius: 40px;
+}
+.c8{
+    background-color: rgba(220, 216, 212, 0.841);
+    width:23vw;
+    height:50vh;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left:800px;
+    top:1500px;
+    border-radius: 40px;
+
+}
+.south
+{
+    position: absolute;
+    top:270px;
+    left:100px;
+}
+.c9
+{
+    position: absolute;
+    top:2100px;
+}
+.c10
+{
+    position: absolute;
+    top:2190px;
+}
+.c11
+{
+    background-color: rgba(220, 216, 212, 0.841);
+    width:23vw;
+    height:30vh;
+    position: absolute;
+    top:2400px;
+    left:60px;
+    border-radius: 20px;
+}
+.c12
+{
+    background-color: rgba(220, 216, 212, 0.841);
+    width:23vw;
+    height:30vh;
+    position: absolute;
+    top:2400px;
+    left:830px;
+    border-radius: 20px;
+}
+.c13
+{
+    background-color: rgba(220, 216, 212, 0.841);
+    width:23vw;
+    height:30vh;
+    position: absolute;
+    top:2800px;
+    border-radius: 20px;
+}
+.c0{
+    position: absolute;
+    top:-120px;
+    left:-40px;
+    font-size: 25px;
+
+}
+.ab5
+{
+    position: absolute;
+    top:1200px;
+}
+.ab6
+{
+    position: absolute;
+    top:1300px;
+}
+.ab7
+{
+    position: absolute;
+    top:1400px;
+}
+.ab8
+{
+    position: absolute;
+    top:1870px;
+}
+.ab9
+{
+    position: absolute;
+    top:1980px
+}
+.ab12
+{
+    position: absolute;
+    left:-20px;
+    top:250px;
+}
+.ab13
+{
+    position: absolute;
+    left:-20px;
+    top:500px;
+}
+.ab14
+{
+    position: absolute;
+    left:-20px;
+    top:750px
+}
+.task1
+{
+    position: absolute;
+    top:50px;
+    left:100px;
+}
+.task2
+{
+    position: absolute;
+    top:140px;
+    left:100px;
+}
+.task3
+{
+    position: absolute;
+    top:220px;
+    left:100px;
+}
+.task4
+{
+    position: absolute;
+    top:350px;
+    left:120px
+}
+.time
+{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width:70vw;
+    height: 60vh;
+    left:-240px;
+    top:-250px;
+   background-color: rgba(165, 42, 42, 0.807);
+}
+.time1{
+    position: absolute;
+    left:0px;
+    top:20px;
+}
+.time2
+{
+    position: absolute;
+    left:400px;
+    top:20px;
+}
+.time3
+{
+    position:absolute;
+    left:750px;
+    top:20px;
+}
+.time4
+{
+    position: absolute;
+    left:1000px;
+    top:20px;
+}
+.time5{
+    position: absolute;
+    left:80px;
+    top:100px;
+    
+
+}
+.time6
+{
+    position:absolute;
+    left:450px;
+    top:100px;
+}
+.time7
+{
+    position: absolute;
+    left:800px;
+    top:100px;
+    
+}
+.time8
+{
+    position: absolute;
+    left:1000px;
+    top:100px;
+
+}
+/* .r2{
+    position: absolute;
+    width:30vw;
+    height: 30vh;
+    left:1000px;
+    top:550px;
+   background-color: rgba(165, 42, 42, 0.807);
+}
+.r3 
+{
+    position: absolute;
+    width:30vw;
+    height: 30vh;
+    left:1000px;
+    top:250px;
+   background-color: rgba(165, 42, 42, 0.807);
+}
+.r4 
+{
+    position: absolute;
+    width:30vw;
+    height: 30vh;
+    left:300px;
+    top:250px;
+   background-color: rgba(165, 42, 42, 0.807);
+}
+.r5 
+{
+    
+        position: absolute;
+        width:30vw;
+        height: 30vh;
+        left:700px;
+        top:300px;
+       background-color: rgba(165, 42, 42, 0.807);
+    
+} */
+.ds1
+{
+    position: absolute;
+    width:30vw;
+    height: 60vh;
+    left:300px;
+    top:250px;
+   background-color: rgba(165, 42, 42, 0.807);
+}
+.r2 
+{
+    position: absolute;
+    left:900px;
+    top:600px;
+}
+.r2:hover
+
+    /* transform: scale(1.1);
+    background-color: blue;
+} */
+.r3 
+{
+    position: relative;
+   
+}
+.r3:hover
+{
+    transform: scale(1.1);
+    background-color: blue;
+}
+.r4 
+{
+    position: relative;
+    left:380px;
+    top:200px
+}
+.at{
+    position: absolute;
+    left: 970px;
+    top:150px
+}
+.at1 
+{
+    background-color: aqua;
+    width: 30vw;
+    height:64vh;
+    position: absolute;
+    left:800px;
+    top:240px;
+}
+.at2 
+{
+    position: relative;
+    top:30px;
+}
+.at3
+{
+    position: relative;
+    top:50px;
+}
+.at4
+{
+    position: relative;
+    top:70px;
+}
+.at5
+{
+    position: relative;
+    top:90px;
+}
+.at6
+{
+    position: relative;
+    top:180px;
+}
+
+
