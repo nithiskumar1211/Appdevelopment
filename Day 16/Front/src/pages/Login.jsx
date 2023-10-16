@@ -6,13 +6,13 @@ import { login1 } from "../components/Redux/Userslice";
 import Authservice from "../services/Authservice";
 
 const Login = () => {
-  const dispatch=useDispatch();
+  const dispatch = useDispatch();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
-  const[login,setLogin]=useState({
-    email:"",
-    password:"",
+  const [login, setLogin] = useState({
+    email: "",
+    password: "",
   });
   const checkPass = (pass) => {
     var isValid = true;
@@ -23,41 +23,46 @@ const Login = () => {
   const Login = () => {
     console.log(email, " ", password);
     if (checkPass(password)) {
-      dispatch(login1({
-        email:email
-
-      }))
+      dispatch(
+        login1({
+          email: email,
+        })
+      );
       console.log("Password Valid TRUE");
       navigate("/Dashboard");
     } else {
-      alert("Password length must be more then 6  ")
+      alert("Password length must be more then 6  ");
     }
   };
-  const handlesubmit =async(e)=>{
+  const handlesubmit = async (e) => {
     e.preventDefault();
-    const error=Login();
-    if(!error?.email&&!error?.password){
-      await Authservice.Login(login)
+    // const error=Login();
+    // if(!error?.email&&!error?.password){
+    console.log(login);
+    await Authservice.Login({ email: email, password: password })
       .then((response) => {
+        // console.log(response);
+        // if (response.data.role === "ADMIN") {
+        dispatch(
+          login1({
+            email: response.data?.email,
+            name: response.data?.name,
+          })
+        );
         console.log(response);
-        if (response.data.role === "ADMIN") {
-          dispatch(
-            login1({
-              email: response.data?.email,
-              name: response.data?.name,
-            })
-          );
-          navigate('/home')
-        }
+        navigate("/home");
+        // }
       })
-      .catch((error) => {});
-    }
-  }
+      .catch((error) => {
+        console.log(error);
+      });
+    //     }
+  };
   return (
     <>
       <div className="App">
         <div className="app1">
-          <form onSubmit={Login}>
+          <form onSubmit={handlesubmit}>
             <div className="app2" style={{ fontFamily: "initial" }}>
               <b>LOGIN</b>
             </div>
@@ -88,8 +93,26 @@ const Login = () => {
                   textIndent: "20px",
                 }}
                 required={true}
-                ></input>{" "}<br></br>
-                <div className="admin"> If you are a Admin<button  style={{ backgroundColor: "Skyblue", borderRadius: "10px" }}onClick={()=>{navigate('/Adminlog')}}>Admin</button></div> 
+              ></input>{" "}
+              <br></br>
+              <div className="admin">
+                {" "}
+                If you are a Admin
+                <button
+                  style={{
+                    backgroundColor: "Skyblue",
+                    borderRadius: "10px",
+                    width: "90px",
+                    height: "30px",
+                    cursor: "pointer",
+                  }}
+                  onClick={() => {
+                    navigate("/Adminlog");
+                  }}
+                >
+                  Admin
+                </button>
+              </div>
             </div>
             {/* <div className="app5" style={{fontSize:"12px"}}>forget password?  </div> */}
             <div className="login">
@@ -104,20 +127,27 @@ const Login = () => {
                   borderRadius: "20px ",
                   backgroundColor: "Skyblue",
                   color: "black",
+                  cursor: "pointer",
                 }}
               ></input>
             </div>
           </form>
-            <div className="app6">
-              Create an new Account?
-              <Link to="/register">
-                <button
-                  style={{ backgroundColor: "skyblue", borderRadius: "10px" }}
-                >
-                  Signup
-                </button>
-              </Link>
-            </div>
+          <div className="app6">
+            Create an new Account?
+            <Link to="/register">
+              <button
+                style={{
+                  backgroundColor: "skyblue",
+                  borderRadius: "10px",
+                  width: "90px",
+                  height: "30px",
+                  cursor: "pointer",
+                }}
+              >
+                Signup
+              </button>
+            </Link>
+          </div>
         </div>
       </div>
     </>

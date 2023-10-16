@@ -1,7 +1,7 @@
 import { authApi } from "../api/axios";
 
 class Authservice{
-    Login =(login)=>authApi.post('/login',login);
+    Login =(login)=>authApi.post('/signin',login);
 
     Signup =(signup)=>authApi.post('/signup',signup);
 }

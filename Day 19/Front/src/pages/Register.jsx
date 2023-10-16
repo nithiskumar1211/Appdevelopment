@@ -64,8 +64,8 @@ const Register = () => {
     <div className='signup'>
   
     <div className='signupContainer'>
-      <h1>WELCOME TO DELTA ENTERPRISE</h1>
-      <h2>hi,Delta is at your Service</h2>
+      <h1>WELCOME TO TASK MANAGEMENT</h1>
+      <h2>taskterk is at your Service</h2>
       <div className='signupcontent'>
         <input type="name" id='first_name' className='signup-input' placeholder='Enter Name' onChange={handleChange} name='first_name'
           required={true} >

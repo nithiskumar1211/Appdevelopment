@@ -23,9 +23,9 @@ const Dashboard7 = () => {
               <tbody style={{textAlign:'center'}}>
               {proj.map((project,i) => (
                 <tr>
-                  <td  className="time5"style={{fontSize:'30px',color:"white"}}>{project.projectname}</td>
-                  <td className="time6"style={{fontSize:'30px',color:"white"}}>{project.startdate}</td>
-                  <td className="time7"style={{fontSize:'30px',color:"white"}}>{project.enddate}</td>
+                  <td  className="time5"style={{fontSize:'30px',color:"white"}}>{project.projectName}</td>
+                  <td className="time6"style={{fontSize:'30px',color:"white"}}>{project.startDate}</td>
+                  <td className="time7"style={{fontSize:'30px',color:"white"}}>{project.endDate}</td>
                   <td className="time8" style={{fontSize:'30px',color:"white"}}onClick={()=>dispatch(removeproj(i))}><button style={{width:"8vw",height:"4vh",cursor:"pointer",backgroundColor:"darkviolet",color:"white",fontsize:'25px'}}>Delete</button></td>
                 </tr>
               ))}

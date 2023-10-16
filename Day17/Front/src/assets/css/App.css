@@ -1293,22 +1293,24 @@ top:50px
 .r4 
 {
     position: relative;
-    left:380px;
+    /* left:100px; */
+    padding-left: 140px;
     top:200px
 }
-.at{
+/* .at{
     position: absolute;
     left: 970px;
-    top:150px
-}
+    top:150px */
+/* } */
 .at1 
 {
     background-color: aqua;
-    width: 30vw;
-    height:64vh;
+    width: 25vw;
+    height:55vh;
     position: absolute;
-    left:800px;
+    left:780px;
     top:240px;
+    border-radius: 20px;
 }
 .at2 
 {
@@ -1334,6 +1336,34 @@ top:50px
 {
     position: relative;
     top:180px;
+}
+.at7 {
+    position: relative;
+    top:150px;
+}
+.bt1 
+{
+    background-color: aqua;
+    width: 25vw;
+    height:55vh;
+    position: relative;
+    left:290px;
+    top:240px;
+    border-radius: 20px;
+}
+.ct1 {
+    background-color: aqua;
+    width: 25vw;
+    height:55vh;
+    position: relative;
+    left:1260px;
+    top:-240px;
+    border-radius: 20px;
+}
+.nithi
+{
+    position: relative;
+    left:20px;
 }
 
 
